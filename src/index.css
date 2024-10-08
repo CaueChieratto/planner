@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+}
+
+input {
+  color-scheme: dark;
+}
+
+.rdp-root {
+  --rdp-accent-color: #a3e635 !important;
+  --rdp-accent-background-color: #303030 !important;
+}
+
+.rdp-today:not(.rdp-outside) {
+  color: #a3e635;
+}
+
+.rdp-chevron {
+  display: inline-block;
+  fill: #a3e635;
+}
+
+.rdp-range_end .rdp-day_button {
+  --rdp-range_end-date-background-color: #a3e635;
+}
+
+.rdp-range_start .rdp-day_button {
+    --rdp-range_end-date-background-color: #a3e635;
+    --rdp-range_start-date-background-color: #a3e635;
+}
+
+.rdp-selected .rdp-day_button {
+ --rdp-selected-border:var(--rdp-range_end-date-background-color);
+}
