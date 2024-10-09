@@ -21,9 +21,7 @@ export function CreateTripPage() {
     DateRange | undefined
   >();
 
-  const [emailsToInvite, setEmailsToInvite] = useState([
-    "lamine.yamal@hotmail.com",
-  ]);
+  const [emailsToInvite, setEmailsToInvite] = useState(["example@hotmail.com"]);
 
   function openGuestsInput() {
     setIsGuestsInputOpen(true);
@@ -170,6 +168,9 @@ export function CreateTripPage() {
 
         {isConfirmTripModalOpen && (
           <ConfirmTripModal
+            destination={destination}
+            startDate={eventStartAndDates?.from || undefined}
+            endDate={eventStartAndDates?.to || undefined}
             closeConfirmTripModal={closeConfirmTripModal}
             createTrip={createTrip}
             setOwnerName={setOwnerName}
