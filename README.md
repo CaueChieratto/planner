@@ -25,11 +25,13 @@ chamado NLW (Next Level Week).
 ### Criando uma viagem
 
 
-![gif 1](https://github.com/user-attachments/assets/2d01bd9c-b6bd-49b8-8528-96d0d609ba62)
+![gif 1](https://github.com/user-attachments/assets/a28cfef5-8ca1-445a-9b30-8976df8a1ebe)
+
 
 
 ### Informações da viagem
 
 
-![gif 2](https://github.com/user-attachments/assets/2eb2e5b6-33ce-4e7e-9faf-60bfa20ba105)
+![gif 2](https://github.com/user-attachments/assets/4d0aed86-2e21-4d7c-8451-50bb5b74a1b0)
+
 
